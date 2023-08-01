@@ -19,12 +19,12 @@
 ## 效果图
 
 <center>
-    <img src="img/login.jpg" alt="Alt Tesxt" style="width:200px;" />
-     <img src="img/register.jpg" alt="Alt Tesxt" style="width:200px;" />
-     <img src="img/env.jpg" alt="Alt Tesxt" style="width:200px;" />
-     <img src="img/mark.jpg" alt="Alt Tesxt" style="width:200px;" />
-     <img src="img/qr.jpg" alt="Alt Tesxt" style="width:200px;" />
-     <img src="img/iot.jpg" alt="Alt Tesxt" style="width:200px;" />
+    <img src="img/login.jpg" alt="Alt Tesxt" style="width:100px;" />
+     <img src="img/register.jpg" alt="Alt Tesxt" style="width:100px;" />
+     <img src="img/env.jpg" alt="Alt Tesxt" style="width:100px;" />
+     <img src="img/mark.jpg" alt="Alt Tesxt" style="width:100px;" />
+     <img src="img/qr.jpg" alt="Alt Tesxt" style="width:100px;" />
+     <img src="img/iot.jpg" alt="Alt Tesxt" style="width:100px;" />
 </center>
 
 
