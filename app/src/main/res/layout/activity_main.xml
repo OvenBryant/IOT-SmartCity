@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school"
+    tools:context=".main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前系统时间:"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_current_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2021-11-03 14:30:40"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <ImageView
+           android:src="@drawable/hai"
+           android:layout_width="60dp"
+           android:layout_height="60dp"/>
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/tv_display_user"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_weather"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/btn_bg"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="环境气象"
+            android:textSize="35sp" />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_smart_shop"
+            android:text="智能商超"
+            android:background="@drawable/btn_bg"
+            android:textSize="35sp"
+            android:textColor="@color/white"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_alart"
+            android:text="预警信息"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:textSize="35sp"
+            android:textColor="@color/white"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:id="@+id/btn_gardening"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="校园园艺"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

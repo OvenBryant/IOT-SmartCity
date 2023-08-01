@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    <TextView
+        android:textSize="17sp"
+        android:text="订单号: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_query_id"
+            android:inputType="number"
+            android:paddingLeft="2dp"
+            android:background="@drawable/et_rectangle_gb"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text=" 起始时间:"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_query_startdate"
+            android:paddingLeft="2dp"
+            android:background="@drawable/et_rectangle_gb"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text=" 结束时间:"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_query_stopdate"
+            android:paddingLeft="2dp"
+            android:background="@drawable/et_rectangle_gb"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"/>
+
+       <Button
+           android:id="@+id/btn_query_"
+           android:paddingLeft="65dp"
+           android:gravity="center"
+           android:textSize="17sp"
+           android:background="@drawable/query"
+           android:text="查询"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_query_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_user"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号: "
+            android:layout_weight="1"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/ll_pwd"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码: "
+            android:layout_weight="1"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/ll_deviceId"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备ID: "
+            android:layout_weight="1"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_deviceId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/ll_fire_apiTag"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="火焰标识名: "
+            android:layout_weight="1"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_fire_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/ll_smoke_apiTag"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="烟雾标识名: "
+            android:layout_weight="1"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_smoke_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/ll_person_apiTag"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人体标识名: "
+            android:layout_weight="1"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_person_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="btn_configure"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="确定"></Button>
+
+</LinearLayout>

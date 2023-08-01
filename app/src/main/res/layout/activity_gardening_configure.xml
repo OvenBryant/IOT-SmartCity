@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_gardening_user"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:id="@+id/ll_gardening_pwd"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:id="@+id/ll_gardening_deviceId"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备ID: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_deviceId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:id="@+id/ll_gardening_temp_apiTag"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="温度标识名: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_temp_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:id="@+id/ll_gardening_humi_apiTag"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="湿度标识名: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_humi_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:id="@+id/ll_gardening_light_apiTag"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="光照标识名: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_light_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:id="@+id/ll_gardening_pm_apiTag"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="空气质量标识名: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_pm_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gardening_ke_fire_apiTag"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可燃气体标识名: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_ke_fire_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gardening_fire_apiTag"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="火焰标识名: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_fire_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gardening_m_lamp_apiTag"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="灯光标识名: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_m_lamp_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gardening_m_fan_apiTag"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="风扇标识名: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_m_fan_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_gardening_m_alarmlight_apiTag"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/et_rectangle_gb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="报警灯标识名: "
+            android:layout_weight="1"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/tv_yun_gardening_alarmlight_apiTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"></TextView>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ico_arrow"></ImageView>
+
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/white"
+        android:onClick="btn_gardening_configure"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="执行"></Button>
+
+</LinearLayout>

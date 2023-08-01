@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartcity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartCity">
+        <activity android:name=".activity.gardening.GardeningConfigureActivity"
+            android:label="智能园艺配置"
+            android:parentActivityName=".activity.gardening.GardeningActivity"/>
+        <activity android:name=".activity.gardening.GardeningActivity"
+            android:label="智能园艺"
+            android:parentActivityName=".main.MainActivity"></activity>
+        <activity android:name=".activity.warninfo.WarnInfoConfigureActivity"
+            android:label="报警参数设置"
+            android:parentActivityName=".activity.warninfo.WarnInfoActivity"/>
+        <activity android:name=".activity.warninfo.WarnInfoActivity" />
+        <activity
+            android:name=".activity.smartsupermarket.SmartVideoConfigureActivity"
+            android:label="参数配置" />
+        <activity
+            android:name=".activity.smartsupermarket.SmartQueryActivity"
+            android:label="商品查询"
+            android:parentActivityName=".activity.smartsupermarket.SmartSupermarketActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.smartsupermarket.SmartVideoActivity"
+            android:label="视频监控"
+            android:parentActivityName=".activity.smartsupermarket.SmartSupermarketActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.smartsupermarket.SmartItemDisplayInfoActivity"
+            android:label="单个条目详细信息"
+            android:parentActivityName=".activity.smartsupermarket.SmartDisplayActivity" />
+        <activity
+            android:name=".activity.smartsupermarket.SmartItemEditActivity"
+            android:label="商品编辑"
+            android:parentActivityName=".activity.smartsupermarket.SmartDisplayActivity" />
+        <activity
+            android:name=".activity.smartsupermarket.SmartDisplayActivity"
+            android:label="商品显示"
+            android:parentActivityName=".activity.smartsupermarket.SmartSupermarketActivity" />
+        <activity
+            android:name=".activity.smartsupermarket.SmartInsertActivity"
+            android:label="商品的录入"
+            android:parentActivityName=".activity.smartsupermarket.SmartSupermarketActivity" />
+        <activity
+            android:name=".activity.smartsupermarket.SmartSupermarketActivity"
+            android:label="智能商超"
+            android:parentActivityName=".main.MainActivity" />
+        <activity android:name=".activity.weather.LifeTipsActivity" />
+        <activity android:name=".activity.weather.SevenDaysActivity" />
+        <activity android:name=".activity.weather.WeatherActivity" />
+        <activity android:name=".main.MainActivity"/>
+        <activity android:name=".main.LoginActivity"
+            android:label="登录界面">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.RegisterActivity"
+            android:label="注册界面"/>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.smartcity.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/files" />
+        </provider>
+    </application>
+
+</manifest>

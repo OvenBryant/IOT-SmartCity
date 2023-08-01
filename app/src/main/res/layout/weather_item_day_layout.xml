@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#969AE1"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_day_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#81EBF6"
+            android:padding="5dp"
+            android:textColor="@color/white"></TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_500"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_day_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:id="@+id/tv_day_visibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_day_temp"
+                android:textColor="@color/white"
+                android:textSize="18sp"></TextView>
+
+            <ImageView
+                android:id="@+id/img_day_weather_icon"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"></ImageView>
+
+            <TextView
+                android:id="@+id/tv_day_pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_day_visibility"
+                android:textColor="@color/white"
+                android:textSize="12sp"></TextView>
+
+        </RelativeLayout>
+</LinearLayout>

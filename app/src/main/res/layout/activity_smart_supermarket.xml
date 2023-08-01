@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.smartsupermarket.SmartSupermarketActivity">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/smart"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:singleLine="true"
+            android:text=" 生活超市 "
+            android:id="@+id/tv_display_user"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_goods_insert"
+                android:layout_width="100dp"
+                android:textSize="35sp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_bg"
+                android:layout_height="100dp"
+                android:text="商品录入" />
+
+            <Button
+                android:id="@+id/btn_goods_display"
+                android:layout_width="100dp"
+                android:textSize="35sp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_bg"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:text="商品展示" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btn_video"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/btn_bg"
+                android:textSize="35sp"
+                android:text="视频监控" />
+
+
+            <Button
+                android:id="@+id/btn_query"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/btn_bg"
+                android:textSize="35sp"
+                android:layout_marginLeft="10dp"
+                android:text="商品查询" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

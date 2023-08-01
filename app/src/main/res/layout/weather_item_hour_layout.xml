@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="115dp"
+    android:layout_height="150dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/weather_bg">
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:id="@+id/tv_hour_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_hour_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/img_hour_icon"
+        android:layout_width="45dp"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_hour_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_hour_win_level"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</LinearLayout>
