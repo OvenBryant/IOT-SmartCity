@@ -26,7 +26,12 @@
      <img src="img/qr.jpg" alt="Alt Tesxt" style="width:100px;" />
      <img src="img/iot.jpg" alt="Alt Tesxt" style="width:100px;" />
 </center>
-![](img\mark.jpg)![](img\mark.jpg)
+<div>
+    <img src="img/login.jpg" alt="login.jpg" style="display:inline-block;width:100px">
+    <img src="img/login.jpg" alt="login.jpg" style="display:inline-block;width:100px">
+</div>
+
+
 
 
 
