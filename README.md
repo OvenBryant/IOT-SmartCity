@@ -18,17 +18,13 @@
 
 ## 效果图
 
-<center>
-    <img src="img/login.jpg" alt="Alt Tesxt" style="width:100px;" />
-     <img src="img/register.jpg" alt="Alt Tesxt" style="width:100px;" />
-     <img src="img/env.jpg" alt="Alt Tesxt" style="width:100px;" />
-     <img src="img/mark.jpg" alt="Alt Tesxt" style="width:100px;" />
-     <img src="img/qr.jpg" alt="Alt Tesxt" style="width:100px;" />
-     <img src="img/iot.jpg" alt="Alt Tesxt" style="width:100px;" />
-</center>
 <div>
-    <img src="img/login.jpg" alt="login.jpg" style="display:inline-block;width:100px">
-    <img src="img/login.jpg" alt="login.jpg" style="display:inline-block;width:100px">
+    <img src="img/login.jpg" alt="login.jpg" style="display:inline-block;width:130px">
+    <img src="img/register.jpg" alt="login.jpg" style="display:inline-block;width:130px">
+    <img src="img/env.jpg" alt="login.jpg" style="display:inline-block;width:130px">
+    <img src="img/mark.jpg" alt="login.jpg" style="display:inline-block;width:130px">
+    <img src="img/qr.jpg" alt="login.jpg" style="display:inline-block;width:130px">
+    <img src="img/iot.jpg" alt="login.jpg" style="display:inline-block;width:130px">
 </div>
 
 
