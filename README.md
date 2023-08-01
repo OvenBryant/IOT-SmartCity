@@ -26,8 +26,7 @@
      <img src="img/qr.jpg" alt="Alt Tesxt" style="width:100px;" />
      <img src="img/iot.jpg" alt="Alt Tesxt" style="width:100px;" />
 </center>
-
-
+![](img\mark.jpg)![](img\mark.jpg)
 
 
 
